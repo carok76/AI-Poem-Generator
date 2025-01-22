@@ -1,0 +1,90 @@
+body {
+    background-image: url("thought-catalog-OJZB0VUQKKc-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Nunito, sans-serif;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.5;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.prompt-input {
+    background-color: #f9f7fe;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width:75%;
+    font-size: 16px;
+    border-style: solid;
+    border-color: black;
+}
+
+.submit-button {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 1;
+}
+
+.poem {
+    font-size: 16px;
+    line-height: 2;
+    padding: 30px;
+    margin-left: 30px;
+    border-left: 3px solid black;
+    min-height: 166px;
+}
+
+a {
+    color: darkgrey;
+}
+
+p {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    background-color: white;
+    opacity: 0.8;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    color: rgba(39, 33, 66, 0.4);
+  }
