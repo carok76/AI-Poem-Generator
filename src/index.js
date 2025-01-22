@@ -6,11 +6,11 @@ function displayInitialPoem() {
     });
 
     typewriter
-        .typeString("Ein alter Teich")
+        .typeString("Words dance in my mind")
         .pauseFor(200)
-        .typeString("<br />Ein Frosch springt hinein -")
+        .typeString("<br />Crafting verses with AI")
         .pauseFor(200)
-        .typeString("<br />Plopp!")
+        .typeString("<br />Join me, write your verse")
         .start();
 }
 
