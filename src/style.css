@@ -20,7 +20,7 @@ h1 {
 form {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 30px 30px 0px 30px;
 }
 
 .prompt-input {
@@ -44,6 +44,11 @@ form {
     border-radius: 10px;
     padding: 20px;
     line-height: 1;
+}
+
+.hint {
+    padding: 0 30px 30px 35px;
+    color: grey;
 }
 
 .poem {
