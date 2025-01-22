@@ -19,6 +19,8 @@ function generatePoem(event) {
 
     let promptInput = document.querySelector("#prompt-input");
 
+    poemContainer.innerHTML = `<p>Generating your haiku about ${promptInput.value}...</p>`;
+
     let apiKey = "o922906b22974ec99e9bc3858a42ft20";
     let context = "You are a creative and poetic poem expert and love to write Haikus. The Haiku has to have three sentences with five syllables in the first line, seven in the second line and five in the third line. The Haiku must be provided in basic HTML format. Example: <p>this is a haiku</p>. Seperate each line with a <br />. Don't add a <br /> after the last line. Stick to three lines. Make sure to follow the user instructions."
     let prompt = `User instructions are: Generate a Haiku poem about ${promptInput.value}.`;
